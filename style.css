@@ -168,3 +168,34 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 border-radius:50%;	
 padding:5px;
 }
+.navbar{
+	postion:sticky;
+	top:0;
+	background-color:#007acc;
+	padding:10px 0;
+	text-align:center;
+	z-index:1000;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.navbar ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.navbar li{
+	display: inline-block;
+	margin:0 15px;
+}
+.navbar a{
+	text-decoration: none;
+	color:white;
+	font-weight:bold;
+	font-size:16px;
+	transition:color 0.3s ease;
+}
+.navbar a:hover {
+	color:#ffeb3b;
+}
+html{
+	scroll-behavior: smooth;
+}
